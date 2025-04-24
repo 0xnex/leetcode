@@ -1,5 +1,5 @@
+[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
 Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
-
 The overall run time complexity should be O(log (m+n)).
 
 ### Example 1:
@@ -28,9 +28,3 @@ nums2.length == n
 1 <= m + n <= 2000
 -106 <= nums1[i], nums2[i] <= 106
 ```
-
-### 思路
-
-1. 中位数是左边的数都比他小，右边都比他大的一个数
-2. 在有序数组里找中位数最简单
-3. 有序数组合并成为新的有序数组，可以想到使用插入排序算法
